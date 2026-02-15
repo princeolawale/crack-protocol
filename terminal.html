@@ -429,7 +429,7 @@ async function send(){
   showTyping();
 
   try {
-    const response = await fetch("http://localhost:5050/chat", {
+    const response = await fetch("https://crack-protocol-backend.onrender.com/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
